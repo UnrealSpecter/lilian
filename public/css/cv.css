@@ -1,0 +1,33 @@
+.curriculum-vitae {
+    font-size: 1em;
+    margin-top: 15px;
+    padding: 0;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .curriculum-vitae {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 992px) {
+    .curriculum-vitae {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .curriculum-vitae {
+        font-size: 1.25em;
+    }
+}
+
+@media (min-width: 1500px) {
+    .curriculum-vitae {
+        font-size: 1.5em;
+    }
+}

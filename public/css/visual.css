@@ -1,0 +1,38 @@
+.visual-wrapper, .visual-description-wrapper {
+    margin-top: 25px;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .visual-description-wrapper {
+        font-size: 1.25em;
+    }
+}
+
+@media (min-width: 992px) {
+    .visual-description-wrapper {
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .visual-wrapper, .visual-description-wrapper {
+        margin-top: 0px;
+    }
+
+    .visual-description-wrapper {
+        padding: 0 20px 0 20px;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1500px) {
+    .visual-description-wrapper {
+        padding: 0 0 0 40px;
+        font-size: 1.25em;
+    }
+}

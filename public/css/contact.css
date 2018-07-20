@@ -1,0 +1,63 @@
+html,body {
+  color: white;
+}
+
+.underline{
+    padding-bottom: 3px;
+    border-bottom: 1.5px solid white;
+}
+
+input{
+  width: 100%;
+  text-transform: uppercase;
+}
+
+textarea{
+    height:200px;
+    width: 100%;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+.submit {
+    width: 25%;
+}
+
+@media screen and (max-height: 320px) {
+
+    textarea{
+        height: 50px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+
+    textarea{
+        height: 75px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    textarea{
+        height: 100px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-wrapper {
+        bottom: 0;
+        position: absolute;
+        bottom: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1500px) {
+
+}

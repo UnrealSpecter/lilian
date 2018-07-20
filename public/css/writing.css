@@ -1,0 +1,35 @@
+tbody{
+  display: flex;
+  white-space: pre-line;
+}
+.table-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 81%;
+  overflow-x: auto;
+  margin-top: 35%;
+  width:100%;
+}
+table{
+  margin-top: 20%;
+}
+
+img{
+  object-fit: contain;
+height: 85vh;
+width: 100%;
+bottom: 0;
+position: absolute;
+}
+
+.img-wrapper img{
+  width: 100%;
+}
+
+.text-wrapper {
+  margin-top: auto;
+  margin-bottom: auto;
+  overflow: auto;
+  max-height: 90vh;
+}
